@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;500&family=Open+Sans:wght@300;400;600&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/global.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+  <script defer src="./js/app.js"></script>
+  <script defer src="./js/slider-hut.js"></script>
+  <title>The Glass Huts | The Area</title>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <a href="index.html"><img class="logo" src="./img/logo.svg" alt="Glass hut logo"></a>
+
+    <nav class="main-nav">
+      <ul class="main-nav__list">
+        <li><a href="index.html" class="main-nav__link">Home</a></li>
+        <li><a href="hut.html" class="main-nav__link">the hut</a></li>
+        <li><a href="area.html" class="main-nav__link">The area</a></li>
+        <li><a href="booking.html" class="main-nav__link">booking</a></li>
+        <li><a href="about.html" class="main-nav__link">about us</a></li>
+        <li><a href="faq.html" class="main-nav__link">faq</a></li>
+        <li>
+
+          <div class="language">
+            <div class="selected-language">
+              <img src="./img/flags/united-kingdom.svg" alt="English language">
+            </div>
+            <ul class="language-list">
+              <li>
+                <a href=""><img src="./img/flags/denmark.svg" alt="Danish language">
+                </a>
+              </li>
+              <li>
+                <a href=""><img src="./img/flags/germany.svg" alt="German language"></a>
+              </li>
+              <li>
+                <a href=""><img src="./img/flags/united-kingdom.svg" alt="English language"></a>
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+    <a href="booking.html" class="btn">Book now</a>
+
+  </header><!-- ./header -->
+
+  <main>
+
+    <section class="section-hero section-hero--secondary area">
+      <h1 class="heading-primary">The Area</h1>
+      <p class="section-hero__location"><img src="./img/hero-location.svg" alt="Location icon"> <span>Vesterborg,
+          Denmark</span></p>
+
+      <a href="#directions" class="btn btn-link">get directions</a>
+    </section>
+
+    <section class="section-area">
+
+      <!-- hut-gallery 1 -->
+      <div class="hut-gallery">
+        <div class="hut-imgs">
+
+          <div class="slider">
+            <div class="slider__item slider__item--hut">
+              <img src="./img/area/area-forrest-1.jpg" alt="Photo of a forrest">
+            </div>
+            <div class="slider__item slider__item--hut">
+              <img src="./img/area/area-town-1.jpg" alt="Hot tub in the open air photo">
+            </div>
+            <div class="slider__item slider__item--hut">
+              <img src="./img/area/area-nature-1.jpg" alt="Hot tub in the open air photo">
+            </div>
+            <div class="slider__item slider__item--hut">
+              <img src="./img/area/area-road-1.jpg" alt="Hot tub in the open air photo">
+            </div>
+            <div class="slider__item slider__item--hut">
+              <img src="./img/area/area-cafe-1.jpg" alt="Hot tub in the open air photo">
+            </div>
+          </div>
+
+
+          <div class="slider__controls-container">
+            <!-- Slider controls -->
+            <div class="slider__controls--hut">
+              <a class="previous previous--hut">
+                <img src="./img/hut/slider/arrow-left-disabled.svg" alt="Arrow left"></a>
+              <a class="next next--hut">
+                <img src="./img/hut/slider/arrow-right.svg" alt="Arrow right"></a>
+            </div>
+
+            <!-- Slider progress -->
+            <div class="slider-progress-container">
+              <p class="slider-progress-num">01</p>
+              <div class="slider-progress--hut">
+                <div class="slider-progress__item--hut"></div>
+                <div class="slider-progress__item--hut"></div>
+                <div class="slider-progress__item--hut"></div>
+                <div class="slider-progress__item--hut"></div>
+                <div class="slider-progress__item--hut"></div>
+              </div>
+              <p class="slider-progress-num">05</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hut-info">
+          <h2 class="generic-content__title">Vesterborg</h2>
+          <h3 class="generic-content__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing...</h3>
+          <p class="generic-content__text">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are designed
+            by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed, kitchen,
+            separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace, which is
+            about nine meters above ground.</p>
+        </div>
+      </div> <!-- ./hut-gallery -->
+
+      <section class="area-map">
+        <h2 class="generic-content__title generic-content__title--map">Lorem ipsum dolor sit amet, consectetur
+          adipiscing...</h2>
+        <div>
+          <img src="./img/area/area-map.png" alt="Map of Denmark">
+        </div>
+      </section>
+
+      <section class="area-activities">
+        <h2 class="generic-content__title generic-content__title--map ">Activities</h2>
+
+        <!-- hut-gallery 2 -->
+        <div class="hut-gallery">
+          <div class="hut-imgs">
+            <div class="slider">
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-cafe-1.jpg" alt="Photo of a restaurant">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-forrest-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-road-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-nature-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-town-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+            </div>
+
+
+            <div class="slider__controls-container">
+              <!-- Slider controls -->
+              <div class="slider__controls--hut">
+                <a class="previous previous--hut">
+                  <img src="./img/hut/slider/arrow-left-disabled.svg" alt="Arrow left"></a>
+                <a class="next next--hut">
+                  <img src="./img/hut/slider/arrow-right.svg" alt="Arrow right"></a>
+              </div>
+
+              <!-- Slider progress -->
+              <div class="slider-progress-container">
+                <p class="slider-progress-num">01</p>
+                <div class="slider-progress--hut">
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                </div>
+                <p class="slider-progress-num">05</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hut-info">
+            <h2 class="generic-content__title">Restaurants & shopping</h2>
+            <div class="hut-categories">
+              <a href="#" class="generic-content__link active">Lorem Impus
+              </a>
+              <a href="#" class="generic-content__link">Lorem Impus
+              </a>
+            </div>
+            <p class="generic-content__text">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are
+              designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed,
+              kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace,
+              which is about nine meters above ground. </p>
+            <p class="generic-content__text invisible">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate ratione enim illum aperiam minima commodi blanditiis quaerat? Voluptatem voluptatum sit sint
+              cupiditate ea facere. Non harum recusandae qui eos ipsam. Sapiente asperiores fuga corporis veniam iste
+              magnam, atque aperiam autem? </p>
+
+          </div>
+        </div> <!-- ./hut-gallery -->
+
+        <!-- hut-gallery 3 -->
+        <div class="hut-gallery">
+          <div class="hut-info">
+            <h2 class="generic-content__title">Experiences in nature</h2>
+            <div class="hut-categories">
+              <a href="#" class="generic-content__link active">Lorem Impus
+              </a>
+              <a href="#" class="generic-content__link">Lorem Impus
+              </a>
+            </div>
+            <p class="generic-content__text">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are
+              designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed,
+              kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace,
+              which is about nine meters above ground. The cottages are built around tall, old trees that go through the
+              entire cottage from floor to ceiling.</p>
+            <p class="generic-content__text invisible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eum
+              hic ut, necessitatibus veniam nihil neque quae tenetur iste ipsum nemo excepturi, laudantium illo.
+              Repellat debitis error inventore, assumenda velit praesentium architecto laboriosam? Doloremque rem
+              inventore ipsa sint quaerat? Facilis.</p>
+          </div>
+
+          <div class="hut-imgs">
+
+            <div class="slider">
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-nature-1.jpg" alt="Photo of a nature">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-forrest-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-road-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-cafe-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-town-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+            </div>
+
+
+            <div class="slider__controls-container">
+              <!-- Slider controls -->
+              <div class="slider__controls--hut">
+                <a class="previous previous--hut">
+                  <img src="./img/hut/slider/arrow-left-disabled.svg" alt="Arrow left"></a>
+                <a class="next next--hut">
+                  <img src="./img/hut/slider/arrow-right.svg" alt="Arrow right"></a>
+              </div>
+
+              <!-- Slider progress -->
+              <div class="slider-progress-container">
+                <p class="slider-progress-num">01</p>
+                <div class="slider-progress--hut">
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                </div>
+                <p class="slider-progress-num">05</p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- ./hut-gallery -->
+
+        <!-- hut-gallery 4 -->
+        <div class="hut-gallery">
+          <div class="hut-imgs">
+            <div class="slider">
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-road-1.jpg" alt="Photo of a road">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-town-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-cafe-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-forrest-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-nature-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+            </div>
+
+
+            <div class="slider__controls-container">
+              <!-- Slider controls -->
+              <div class="slider__controls--hut">
+                <a class="previous previous--hut">
+                  <img src="./img/hut/slider/arrow-left-disabled.svg" alt="Arrow left"></a>
+                <a class="next next--hut">
+                  <img src="./img/hut/slider/arrow-right.svg" alt="Arrow right"></a>
+              </div>
+
+              <!-- Slider progress -->
+              <div class="slider-progress-container">
+                <p class="slider-progress-num">01</p>
+                <div class="slider-progress--hut">
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                </div>
+                <p class="slider-progress-num">05</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="hut-info">
+            <h2 class="generic-content__title">Go for a drive</h2>
+            <div class="hut-categories">
+              <a href="#" class="generic-content__link active">Lorem Impus
+              </a>
+              <a href="#" class="generic-content__link">Lorem Impus
+              </a>
+            </div>
+            <p class="generic-content__text">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are
+              designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed,
+              kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace,
+              which is about nine meters above ground. </p>
+            <p class="generic-content__text invisible">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+              Voluptas veritatis sit, ex quidem facilis excepturi tenetur, quas mollitia reprehenderit non vitae autem
+              ipsa expedita eveniet, molestias ipsam amet reiciendis? Rem, quos culpa? Repudiandae exercitationem, a
+              odit repellendus recusandae incidunt laboriosam?/p>
+
+          </div>
+        </div> <!-- ./hut-gallery -->
+
+        <!-- hut-gallery 5 -->
+        <div class="hut-gallery">
+          <div class="hut-info">
+            <h2 class="generic-content__title">Small-town charm</h2>
+            <div class="hut-categories">
+              <a href="#" class="generic-content__link active">Lorem Impus
+              </a>
+              <a href="#" class="generic-content__link">Lorem Impus
+              </a>
+            </div>
+            <p class="generic-content__text">Løvtag’s three exclusive and comfortable cabins, Et, Ro and Ly, are
+              designed by architect Sigurd Larsen. They all have an open space with a double bed, a double sofa bed,
+              kitchen, separate toilet and an outdoor shower. On the roof, surrounded by treetops, there is a terrace,
+              which is about nine meters above ground. The cottages are built around tall, old trees that go through the
+              entire cottage from floor to ceiling.</p>
+            <p class="generic-content__text invisible">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, eum
+              hic ut, necessitatibus veniam nihil neque quae tenetur iste ipsum nemo excepturi, laudantium illo.
+              Repellat debitis error inventore, assumenda velit praesentium architecto laboriosam? Doloremque rem
+              inventore ipsa sint quaerat? Facilis.</p>
+          </div>
+
+          <div class="hut-imgs">
+
+            <div class="slider">
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-town-1.jpg" alt="Photo of a town">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-forrest-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-nature-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-cafe-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+              <div class="slider__item slider__item--hut">
+                <img src="./img/area/area-road-1.jpg" alt="Hot tub in the open air photo">
+              </div>
+            </div>
+
+
+            <div class="slider__controls-container">
+              <!-- Slider controls -->
+              <div class="slider__controls--hut">
+                <a class="previous previous--hut">
+                  <img src="./img/hut/slider/arrow-left-disabled.svg" alt="Arrow left"></a>
+                <a class="next next--hut">
+                  <img src="./img/hut/slider/arrow-right.svg" alt="Arrow right"></a>
+              </div>
+
+              <!-- Slider progress -->
+              <div class="slider-progress-container">
+                <p class="slider-progress-num">01</p>
+                <div class="slider-progress--hut">
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                  <div class="slider-progress__item--hut"></div>
+                </div>
+                <p class="slider-progress-num">05</p>
+              </div>
+            </div>
+          </div>
+        </div> <!-- ./hut-gallery -->
+      </section>
+    </section>
+
+    <div id="directions" class="area-location location-mark" role="img" aria-label="Location of the area on map">
+    </div>
+
+  </main>
+
+  <footer class="footer">
+    <div class="newsletter">
+      <h3 class="newsletter__title">Newsletter</h3>
+      <form class="footer-form">
+        <div class="form-group">
+          <input class="form-input" type="email" name="email" placeholder="Email Address">
+          <button class="form-btn" type="submit"><img src="./img/slider/arrow-right.svg"
+              alt="Arrow right icon"></button>
+        </div>
+      </form>
+      <p class="generic-content__text">Sign up to our newsletter for special things and receive 10% off your next order.
+      </p>
+      <p class="generic-content__text copyright">&copy; 2021 The Glass Huts</p>
+    </div>
+    <div class="footer-links">
+      <ul class="policy-links">
+        <li><a class="policy-link" href="#">TERMS AND CONDITIONS</a></li>
+        <li><a class="policy-link" href="#">CENCELLATION POLICY</a></li>
+        <li><a class="policy-link" href="#">PRIVACY POLICY</a></li>
+      </ul>
+      <ul class="payment-links">
+        <li><a href="https://paypal.com" target="_blank"><img src="./img/footer/paypal-logo.svg" alt="Paypal logo"></a>
+        </li>
+        <li><a href="https://mastercard.com" target="_blank"><img src="./img/footer/mastercard-logo.svg"
+              alt="Mastercard logo"></a></li>
+        <li><a href="https://visa.com" target="_blank"><img src="./img/footer/visa-logo.svg" alt="Visa card logo"></a>
+        </li>
+        <li><a
+            href="https://www.google.com/search?q=bank+transfer&sxsrf=AOaemvKVioMUXL3Hq52mlbik66ZH3pfMEw%3A1636132542010&ei=vmaFYZEC4qOuBJS-uFA&oq=bank+transfer&gs_lcp=Cgdnd3Mtd2l6EAMyBAgAEEMyBQgAEIAEMgUIABCABDIGCAAQBxAeMgUIABCABDIGCAAQBxAeMgYIABAHEB4yBggAEAcQHjIGCAAQBxAeMgYIABAHEB46BwgAEEcQsAM6BwgAELADEEM6DQguEMcBENEDELADEENKBAhBGABQ_QZY_QZgughoAnAAeACAAZIBiAGSAZIBAzAuMZgBAKABAcgBCsABAQ&sclient=gws-wiz&ved=0ahUKEwiR2eLX3IH0AhXikYsKHRQfDgoQ4dUDCA4&uact=5"
+            target="_blank"><img src="./img/footer/banktransfer-logo.svg" alt="Bank transfer logo"></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
