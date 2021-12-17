@@ -247,6 +247,7 @@ function renderCalendar() {
       nightsNum = 1;
       calcSumAdd();
     }
+    nights.innerHTML = `${nightsNum}`;
     calendarDateTo.value = '';
     calendarDateFrom.value = '';
   });
@@ -281,7 +282,7 @@ const arrowNext = document.querySelector(".next-icon img");
 
 /* Calendar event listener */
 arrowBack.addEventListener("click", () => {
-  if (date.getMonth() === new Date().getMonth()) {
+  if (date.getMonth() === new Date().getMonth() && date.getFullYear() === new Date().getFullYear()) {
     return;
   } else {
     date.setMonth(date.getMonth() - 1);
